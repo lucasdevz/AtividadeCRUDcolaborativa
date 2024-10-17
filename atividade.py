@@ -68,10 +68,13 @@ class Funcionario(Base):
 # Criando tabela no banco de dados.
 Base.metadata.create_all(bind=MEU_BANCO)
 
+# Criando as funções
+
 def menu():
     while True:
         print("""
-        === RH System ===
+        === 𝑹𝑯 𝑺𝒚𝒔𝒕𝒆𝒎  ===
+        
         1 - Adicionar funcionário
         2 - Consultar um funcionário
         3 - Atualizar os dados de um funcionário
@@ -94,7 +97,7 @@ def menu():
         elif opcao == "0":
             break
         else:
-            print("Opção inválida. Tente novamente.")
+            print("Opção inválida! Tente novamente.")
 
 def adicionar_funcionario():
     os.system("cls || clear")
