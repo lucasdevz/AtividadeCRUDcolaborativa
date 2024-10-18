@@ -1,4 +1,4 @@
-# Alunos: Lucas Pereira, Victor Santana
+# Estudantes: Lucas Pereira, Victor Santana
 
 """
 # AtividadeCRUDcolaborativa
